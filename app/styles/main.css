@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+
+body{
+  font-family: 'Press Start 2P', cursive;
+  padding:0;
+  margin:0;
+  background-color:#262626;
+  overflow: hidden;
+}
+
+#container{
+  width:300px;
+  height:300px;
+  margin:0 auto;
+  margin-top:0px;
+  display:none;
+
+}
+
+.box{
+  width:50px;
+  height:50px;
+  float:left;
+  margin:2px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 3px 3px 3px 1px rgba(20,20,20,1);
+  -moz-box-shadow: 3px 3px 3px 1px rgba(20,20,20,1);
+  box-shadow: 3px 3px 3px 1px rgba(20,20,20,1);
+}
+
+#menu{
+  width:360px;
+  height:200px;
+  background-color: grey;
+  margin:0 auto;
+  text-align:center;
+   -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-top:0px;
+  display:none;
+}
+
+#desc{
+  width:360px;
+  height:200px;
+  background-color: grey;
+  margin:0 auto;
+  text-align:center;
+   -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-top:0px;
+  display:none;
+}
+
+#menu h2, #desc h2{
+  color:white;
+  padding:15px 15px 0px 15px;
+}
+
+.cust-font{
+  font-size:10px;
+  padding:5px 10px;
+  color:black;
+  line-height:18px;
+
+}
+
+#menu-box-container{
+  background-color:black;
+  width:100%;
+  height:100px;
+}
+
+#start-button, #how-to-button, #return-button{
+  width:40%;
+  margin:0 auto;
+  margin-top:20px;
+  background-color:#262626;
+  border:1px solid white;
+  padding:4px;
+   -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+
+}
+
+#return-button{
+  width:80%;
+  margin:0 auto;
+  margin-top:20px;
+  background-color:#262626;
+  border:1px solid white;
+  padding:4px;
+   -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+
+}
+
+#start-button p, #how-to-button p, #return-button p {
+  color:white;
+  font-family: 'Press Start 2P', cursive;
+  font-size:10px;
+  animation-duration: 400ms;
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes blink {
+   from {
+      opacity: 1;
+   }
+   to {
+      opacity: 0;
+   }
+ }
+
+#penalty{
+  height:80px;
+  color:red;
+  text-align:center;
+  position:absolute;
+  top:0px;
+  left:0px;
+  display:none;
+
+}
